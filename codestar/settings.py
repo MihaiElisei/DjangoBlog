@@ -34,7 +34,7 @@ DEBUG = False
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-ALLOWED_HOSTS = ['mihaicodestar.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['mihaicodestar.herokuapp.com', 'localhost', 'mihai-blog.onrender.com']
 # Add Render.com URL to allowed hosts
 
 RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
